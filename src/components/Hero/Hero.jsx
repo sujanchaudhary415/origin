@@ -57,7 +57,7 @@ const Hero = () => {
 
         {/**hero img */}
         <motion.div
-          initial={{ opacity: 0, x: -200, rotate: 75 }}
+          initial={{ opacity: 0, x: 200, rotate: 75 }}
           animate={{ opacity: 1, x: 0, rotate: 0 }}
           transition={{ duration: 1, delay: 1.5 }}
           className=" flex items-center w-[350px] md:w-[550px]"
