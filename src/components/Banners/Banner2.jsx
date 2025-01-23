@@ -51,13 +51,12 @@ const Banner2 = () => {
         whileInView={{ opacity: 1, x: 0, rotate: 0 }}
         transition={{ duration: 1, delay: 0.5 }}
         viewport={{ once: true }} 
-         viewport={{once:"true"}}
-          className="flex justify-center items-center order-1 md:order-2"
+          className="flex justify-center items-center order-1 md:order-2 "
         >
           <img
             src={banner2}
             alt=""
-            className="w-[300px] md:max-w-[400px] h-full object-cover"
+            className="w-[300px] md:max-w-[400px] h-full object-cover drop-shadow"
           />
         </motion.div>
       </div>

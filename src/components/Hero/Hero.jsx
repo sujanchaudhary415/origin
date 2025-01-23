@@ -62,7 +62,7 @@ const Hero = () => {
           transition={{ duration: 1, delay: 1.5 }}
           className=" flex items-center justify-center "
         >
-          <img src={heroPng} className="w-[350px] md:w-[550px] " alt="" />
+          <img src={heroPng} className="w-[350px] md:w-[550px] drop-shadow " alt="" />
         </motion.div>
 
         {/**leaf */}
